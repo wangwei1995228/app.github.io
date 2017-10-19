@@ -1,0 +1,153 @@
+@import url('base.css');
+body{
+	background-color: #f7f7f7;
+}
+/* 头部开始 */
+.header{
+	width: 100%;
+	height: 2.19rem;
+	background-color: #ffffff;
+}
+.header-text{
+	width: 100%;
+	height: 100%;
+	font-size: 0.72rem;
+	color: #000000;
+	text-align: center;
+	line-height: 2.19rem;
+}
+/* 头部结束 */
+/* 导航开始 */
+.nav{
+	width: 100%;
+	height: 1.64rem;
+}
+.nav-list{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.nav-list li{
+	width: 2.89rem;
+	height: 1.71rem;
+	box-sizing: border-box;
+	font-size: 0.58rem;
+	color: #b1b1b1;
+	text-align: center;
+	line-height: 1.71rem;
+}
+.nav-list li:first-child{
+	color: #000000;
+	border-bottom: 0.08rem solid #000000;
+}
+/* 导航结束 */
+/* 最热开始*/
+.zuire{
+	width: 100%;
+	margin-top: 0.34rem;
+	margin-bottom: 2.03rem;
+}
+.zuire-list{
+	margin-top: 0.34rem;
+	display: block;
+	width: 100%;
+/* 	height: 16rem; */
+	position: relative;
+}
+.zuire-list-img{
+	width: 100%;
+	height: 8.46rem;
+}
+.zuire-list-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.zuire-list-text{
+	width: 100%;
+	padding: 0 0.37rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.zuire-list-text li{
+	font-size: 0.5rem;
+	color: #626262;
+	line-height: 1rem;
+}
+.zuire-list-text li:first-child i{
+	font-size: 0.82rem;
+	margin-right: 0.37rem;
+	line-height: 1rem;
+}
+.zuire-list-text li:last-child i{
+	font-size: 0.6rem;
+	color: #e56854;
+	margin-right: 0.37rem;
+	line-height: 1rem;
+}
+.zuire-list-word{
+	width: 100%;
+	height: 5rem;
+	position: absolute;
+	top: 2.14rem;
+}
+.zuire-list-word li:first-child{
+	width: 100%;
+	font-size: 0.8rem;
+	color: #fefffb;
+	text-align: center;
+}
+.zuire-list-word li:nth-child(2){
+	width: 100%;
+	margin-top: 0.77rem;
+	font-size: 0.9rem;
+	color: #ffffff;
+	text-align: center;
+}
+.zuire-list-word li:last-child{
+	width: 3.61rem;
+	height: 1.06rem;
+	margin: 0 auto;
+	margin-top: 0.77rem;
+	background-color: rgba(0, 0, 0, 0.6);
+	font-size: 0.62rem;
+	color: #f1f3f2;
+	text-align: center;
+	line-height: 1.06rem;
+}
+/* 最热结束 */
+/* 底部栏开始 */
+.dibu{
+	width: 100%;
+	height: 2.03rem;
+	background-color: #ffffff;
+	display: flex;
+	position: fixed;
+	bottom: 0;
+}
+.dibu-list{
+	display: block;
+	width: 20%;
+	height: 2.03rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.dibu-list-top i{
+	font-size: 0.96rem;
+	color: #c2c3c4;
+}
+.dibu-list-top{
+	font-size: 0.4rem;
+	color: #636363;
+}
+.dibu-list:nth-child(4) i{
+	color: #1e1e1c;
+}
+.dibu-list:nth-child(4) .dibu-list-top{
+	color: #1e1e1c;
+}
+/* 底部栏结束 */

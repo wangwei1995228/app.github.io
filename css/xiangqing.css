@@ -1,0 +1,130 @@
+@import url('base.css');
+/* 详情开始 */
+.shangpin{
+	width: 100%;
+	margin-bottom: 2.02rem;
+}
+.shangpin-top{
+	width: 100%;
+	height: 15.36rem;
+	position: relative;
+}
+.shangpin-top img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shangpin-top-fanhui{
+	display: block;
+	color: #000000;
+	position: absolute;
+	top: 0.27rem;
+	left: 0.33rem;
+}
+.shangpin-top-fanhui i{
+	font-size: 0.96rem;
+	color: rgba(0, 0, 0, 0.5);
+}
+.shangpin-top-gouwu{
+	display: block;
+	color: #000000;
+	position: absolute;
+	top: 0.27rem;
+	right: 0.33rem;
+}
+.shangpin-top-gouwu i{
+	font-size: 0.96rem;
+	color: rgba(0, 0, 0, 0.5);
+}
+.shangpin-center{
+	width: 100%;
+	height: 4.54rem;
+	padding: 0.6rem 0.6rem 0 0.6rem;
+	box-sizing: border-box;
+}
+.shangpin-center-text{
+	
+}
+.shangpin-center-text li:first-child{
+	font-size: 0.52rem;
+	color: #7d7d7d;
+}
+.shangpin-center-text li:last-child{
+	font-size: 0.52rem;
+	color: #000000;
+	margin-top: 0.9rem;
+}
+.shangpin-bottom{
+	width: 100%;
+}
+.shangpin-bottom-text{
+	width: 100%;
+	padding: 0 0.6rem;
+	box-sizing: border-box;
+}
+.shangpin-bottom-text li{
+	float: left;
+	font-size: 0.54rem;
+	color: #404040;
+}
+.shangpin-bottom-text li:last-child{
+	color: #9f9f9f;
+}
+.shangpin-bottom-img{
+	width: 100%;
+}
+/* .shangpin-bottom-img:first-child{
+	height: 11.14em;
+} */
+.shangpin-bottom-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 详情结束 */
+/* 底部开始 */
+.dibu{
+	width: 100%;
+	height: 2.02rem;
+	background-color: #ffffff;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+}
+.dibu-left{
+	float: left;
+	height: 0.91rem;
+	margin-top: 0.55rem;
+	margin-left: 0.02rem;
+}
+.dibu-left i{
+	font-size: 0.96rem;
+}
+.dibu-left li{
+	float: left;
+	color: #676767;
+	padding: 0 0.7rem;
+	border-right: 0.01rem solid #cbcbcb;
+}
+.dibu-left li:last-child{
+	border: 0;
+}
+.dibu-right{
+	float: right;
+}
+.dibu-right li{
+	float: left;
+	width: 5.14rem;
+	height: 2.02rem;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 2.02rem;
+	background-color: #77767b;
+}
+.dibu-right li a{
+	color: #ffffff;
+}
+.dibu-right li:last-child{
+	background-color: #46494e;
+}
+/* 底部结束 */
